@@ -26,10 +26,12 @@ header {
     color: white;
 }
 
+/*colocar todas as letras em maiusculo - text-transform: uppercase;*/
+
 header > h1 {
-    font-variant: small-caps;
+    font-variant: small-caps; /*colocar em maiusculo, mas com as primeiras maiores*/
     font-family: var(--fonte2);
-    font-size: 10vw;
+    font-size: 10vw; /*tamanho da letra baseado na largura da tela*/
     padding-top: 50px ;
 }
 
@@ -39,7 +41,7 @@ header >h1:hover {
 
 header > p {
     font-family: var(--fonte1) ;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 
 a {
@@ -60,7 +62,8 @@ section {
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 3.5vw;}
+    font-size: 3.5vw; /*tamanho da letra baseado na largura da tela*/
+} 
 
 .imagem {
     background-image: url(imagens/background001.jpg);
